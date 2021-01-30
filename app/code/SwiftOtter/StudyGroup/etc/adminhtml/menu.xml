@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add
+                id="SwiftOtter_StudyGroup::view_exported_orders"
+                title="Exported Orders"
+                translate="title"
+                module="SwiftOtter_StudyGroup"
+                sortOrder="100"
+                parent="Magento_Sales::sales_operation"
+                action="view_export_id/view/index"
+                resource="SwiftOtter_StudyGroup::view_exported_orders"
+        />
+    </menu>
+</config>

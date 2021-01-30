@@ -1,0 +1,35 @@
+{
+  "password": 1234,
+  "currency": "USD",
+  "shipping": {
+    "name": "Joseph Maxwell",
+    "address": "123 Main Street",
+    "city": "Kansas City",
+    "state": "KS",
+    "postcode": "12345",
+    "country": "US",
+    "amount": 15,
+    "method": "UPS",
+    "ship_date": "17/12/2020"
+  },
+  "customer_notes": "Please ship carefully.",
+  "merchant_notes": "PO #123456",
+  "items": [
+    {
+      "sku": "ASD123",
+      "qty": 1,
+      "item_price": 10,
+      "item_cost": 4,
+      "total": 10
+    },
+    {
+      "sku": "QWE456",
+      "qty": 2,
+      "item_price": 12,
+      "item_cost": 4,
+      "total": 24
+    }
+  ],
+  "discount": 0,
+  "total": 49
+}
